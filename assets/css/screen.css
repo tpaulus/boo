@@ -1328,9 +1328,6 @@ body:not(.page-template) .post-title {
 .post-footer .share .icon-linked-in:hover {
     color: #0077B5;
 }
-#disqus_thread {
-    padding-top: .35rem;
-}
 
 /* ==========================================================================
    6. Author profile
@@ -1616,6 +1613,10 @@ body:not(.page-template) .post-title {
     margin-bottom: 1.75em;
 }
 
+/* Disqus */
+#disqus_thread {
+    padding-top: .35rem;
+}
 
 /* ==========================================================================
    9. Pagination - Tools to let you flick between pages
