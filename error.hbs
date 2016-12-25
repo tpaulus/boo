@@ -8,6 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+        <script src="{{asset "js/giphy.js"}}"></script>
         <style>
             body {
                 margin: 50px 0;
@@ -16,6 +17,11 @@
 
             img {
                 max-width: 200px;
+            }
+
+            img.gif {
+                max-width: 400px;
+                max-height: 400px;
             }
 
             h1 {
@@ -60,8 +66,9 @@
             }
         </style>
     </head>
-    <body>
-        <a href="{{@blog.url}}"><img src="{{asset "img/error.png"}}"></a>
+    <body onload="searchGiphy()">
+        <a href="{{@blog.url}}"><img id="giphyme" class="gif" style="display:none" title="GIF via Giphy"></a>
+        <a href="{{@blog.url}}"><img id="default-ghost" src="{{asset "img/error.png"}}"></a>
         <h1>{{code}}</h1>
         <h2>{{message}}</h2>
         <p><a id="home-link" href="{{@blog.url}}">Go to the home page?</a></p>
