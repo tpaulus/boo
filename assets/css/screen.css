@@ -138,14 +138,24 @@ td, th{ padding: 0; }
     content: "\f601";
 }
 .icon-twitter:before {
-    content: "\f602";
-    font-size: 1.1em;
+    font-family: FontAwesome;
+    content: "\f099";
+    font-size: 1.4em;
+}
+.icon-linked-in:before{
+    font-family: FontAwesome;
+    content: "\f0e1";
+    font-size: 1.4em;
 }
 .icon-google-plus:before {
-    content: "\f603";
+    font-family: FontAwesome;
+    content: "\f0d5";
+    font-size: 1.3em;
 }
 .icon-facebook:before {
-    content: "\f604";
+    font-family: FontAwesome;
+    content: "\f09a";
+    font-size: 1.3em;
 }
 .icon-arrow-left:before {
     content: "\f605";
@@ -1315,7 +1325,12 @@ body:not(.page-template) .post-title {
 .post-footer .share .icon-google-plus:hover {
     color: #dd4b39;
 }
-
+.post-footer .share .icon-linked-in:hover {
+    color: #0077B5;
+}
+#disqus_thread {
+    padding-top: .35rem;
+}
 
 /* ==========================================================================
    6. Author profile
