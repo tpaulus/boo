@@ -224,6 +224,7 @@ h4, h5, h6 {
     color: #424242;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
+    font-feature-settings: "liga" 0;
     font-family: "Lato", sans-serif;
     text-rendering: geometricPrecision;
 }
@@ -601,10 +602,10 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header-background-square {
-    background-color: #212121;
+    /*background-color: #212121;*/
     width: 100%;
     height: 100%;
-    position: absolute;
+    /*position: absolute;*/
     transition: background-color 450ms linear;
 }
 
@@ -868,8 +869,8 @@ body.nav-opened .nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    display: none;
-    height: 38px;
+/*     display: none; */
+    height: 24px;
     padding: 1px 0 5px 0;
     width: auto;
     transition: all 0.5s ease;
@@ -1014,7 +1015,7 @@ body.nav-opened .nav {
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
     font-weight: 800;
-    display: none;
+    /*display: none;*/
 }
 
 .home-template .no-cover .page-title, .archive-template .no-cover .page-title, .tag-template .no-cover .page-title {
@@ -1031,7 +1032,7 @@ body.nav-opened .nav {
     animation: fade-in 0.9s both;
     -webkit-animation-delay: 0.1s;
     animation-delay: 0.1s;
-    display: none;
+    /*display: none;*/
 }
 
 .home-template .no-cover .page-description, .archive-template .no-cover .page-description, .tag-template .no-cover .page-description {
@@ -1641,7 +1642,8 @@ body:not(.page-template) .post-title {
 
 /* Push the previous/next links out to the left/right */
 .older-posts,
-.newer-posts {
+.newer-posts,
+.more {
     position: absolute;
     display: inline-block;
     padding: 0 15px;
@@ -1665,8 +1667,13 @@ body:not(.page-template) .post-title {
     left: 0;
 }
 
+.more {
+    position: inherit;
+}
+
 .older-posts:hover,
-.newer-posts:hover {
+.newer-posts:hover,
+.more:hover {
     color: #757575;
     border-color: #9E9E9E;
 }
