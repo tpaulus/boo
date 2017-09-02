@@ -7,14 +7,13 @@
 
     {{!-- Page Meta --}}
     <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
     {{!-- Mobile Meta --}}
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{!-- Brand icon --}}
-    <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <link rel="shortcut icon" href="{{asset "img/favicon.ico"}}">
 
     {{!-- Styles'n'Scripts --}}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
@@ -43,7 +42,7 @@
     </div>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     {{!-- Ghost outputs important scripts and data with this tag --}}
     {{ghost_foot}}
     {{!-- Fitvids makes video embeds responsive and awesome --}}

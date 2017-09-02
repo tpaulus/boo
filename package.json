@@ -1,10 +1,10 @@
 {
-    "name": "Boo-Tompaulus.com",
-    "description": "A beautiful, clean and responsive theme for Ghost.",
+    "name": "boo",
+    "description": "A beautiful, clean, and responsive theme for Ghost.",
     "demo": "http://boo-demo.tenoku.com",
-    "version": "0.11.0",
+    "version": "1.0.0",
     "engines": {
-        "ghost": ">=0.11.3 <1.0.0"
+        "ghost": "^1.0.0"
     },
     "license": "MIT",
     "screenshots": {
@@ -12,9 +12,9 @@
         "mobile": "assets/screenshot-mobile.png"
     },
     "author": {
-        "name": "Tom Paulus",
-        "email": "bo@tompaulus.com",
-        "url": "http://tompaulus.com"
+        "name": "Tenoku Software",
+        "email": "ivan@ivandigital.com",
+        "url": "http://tenoku.com"
     },
     "gpm": {
         "type": "theme",
@@ -36,8 +36,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tpaulus/boo"
+        "url": "https://github.com/tenoku/boo"
     },
-    "bugs": "https://github.com/tpaulus/boo/issues",
-    "contributors": "https://github.com/tpaulus/boo/graphs/contributors"
+    "bugs": "https://github.com/tenoku/boo/issues",
+    "contributors": "https://github.com/tenoku/boo/graphs/contributors",
+    "config": {
+        "posts_per_page": 4
+    }
 }

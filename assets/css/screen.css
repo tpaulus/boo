@@ -1009,7 +1009,7 @@ body.nav-opened .nav {
 }
 
 /* Add subtle load-in animation for content on the home page */
-.home-template .page-title, .archive-template .page-title, .tag-template .page-title {
+.home-template .page-title, .paged .page-title, .tag-template .page-title {
     -webkit-animation: fade-in 0.6s both;
     animation: fade-in 0.6s both;
     -webkit-animation-delay: 0.2s;
@@ -1018,16 +1018,16 @@ body.nav-opened .nav {
     /*display: none;*/
 }
 
-.home-template .no-cover .page-title, .archive-template .no-cover .page-title, .tag-template .no-cover .page-title {
+.home-template .no-cover .page-title, .paged .no-cover .page-title, .tag-template .no-cover .page-title {
     display: inherit;
 }
 
-.archive-template .page-title, .tag-template .page-title{
+.paged .page-title, .tag-template .page-title{
     font-weight: 700;
     display: inherit;
 }
 
-.home-template .page-description, .archive-template .page-description, .tag-template .page-description {
+.home-template .page-description, .paged .page-description, .tag-template .page-description {
     -webkit-animation: fade-in 0.9s both;
     animation: fade-in 0.9s both;
     -webkit-animation-delay: 0.1s;
@@ -1035,11 +1035,11 @@ body.nav-opened .nav {
     /*display: none;*/
 }
 
-.home-template .no-cover .page-description, .archive-template .no-cover .page-description, .tag-template .no-cover .page-description {
+.home-template .no-cover .page-description, .paged .no-cover .page-description, .tag-template .no-cover .page-description {
     display: inherit;
 }
 
-.archive-template .page-description, .tag-template .page-description {
+.paged .page-description, .tag-template .page-description {
     display: inherit;
 }
 
@@ -1837,7 +1837,7 @@ body:not(.page-template) .post-title {
     }
 
     .home-template .page-title,.home-template .page-description,
-    .archive-template .page-title, .archive-template .page-description {
+    .paged .page-title, .paged .page-description {
         display: inherit;
     }
 

@@ -21,23 +21,26 @@
         });
 
         // Stop main header from resizing when scrolling on tablets:
-        var md = new MobileDetect(window.navigator.userAgent);
+        // Not all browsers support screen.orientation
+        try {
+            var md = new MobileDetect(window.navigator.userAgent);
 
-        if (md.tablet()) {
-            var headerHeightLandscape;
-            var headerHeightPortrait;
+            if (md.tablet()) {
+                var headerHeightLandscape;
+                var headerHeightPortrait;
 
-            // If orientation is landscape:
-            if (screen.orientation.angle === 0 || screen.orientation.angle === 180) {
-                headerHeightLandscape = $('.main-header').css('height');
-                $('.main-header').css('height', headerHeightLandscape);
+                // If orientation is landscape:
+                if (screen.orientation.angle === 0 || screen.orientation.angle === 180) {
+                    headerHeightLandscape = $('.main-header').css('height');
+                    $('.main-header').css('height', headerHeightLandscape);
+                }
+                // If orientation is portrait:
+                else {
+                    headerHeightPortrait = $('.main-header').css('height');
+                    $('.main-header').css('height', headerHeightPortrait);
+                }
             }
-            // If orientation is portrait:
-            else {
-                headerHeightPortrait = $('.main-header').css('height');
-                $('.main-header').css('height', headerHeightPortrait);
-            }
-        }
+        } catch (e) {}
 
         // Fade-in main header background image:
         $('.main-header').imagesLoaded( { background: true }, function() {
@@ -69,6 +72,13 @@
         $('.author-image .img').imagesLoaded( { background: true }, function() {
             $('.author-image').css('visibility', 'visible');
         });
+
+        // Open/close navigation menu with ESC key:
+        window.document.onkeydown = function(event) {
+            if (event.repeat === false && event.code === 'Escape') {
+                $("body").toggleClass("nav-opened nav-closed");
+            }
+        };
 
     });
 
