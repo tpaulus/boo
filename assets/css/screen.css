@@ -837,7 +837,7 @@ body.nav-opened .nav {
 /* Put a semi-opaque radial gradient behind the icon to make it more visible
    on photos which happen to have a light background. */
 .home-template .main-header:after {
-    display: block;
+    display: none;
     content: " ";
     width: 150px;
     height: 130px;
@@ -1108,12 +1108,9 @@ body:not(.page-template) .post-title {
 }
 
 .post-date {
-    display: inline-block;
     margin-left: 8px;
-    padding-left: 12px;
+    padding-left: 10px;
     border-left: #BDBDBD 1px solid;
-    font-size: 1.3rem;
-    white-space: nowrap;
 }
 
 .user-image {
@@ -1157,6 +1154,95 @@ body:not(.page-template) .post-title {
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
+
+.kg-gallery-card.kg-width-wide {
+    width: 100vw;
+}
+
+.kg-gallery-card figcaption {
+    margin: -1.55em 0 1.5em
+}
+
+.kg-gallery-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em auto;
+    max-width: 1040px;
+    width: calc(100vw - 32px);
+}
+.kg-gallery-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kg-gallery-image img {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.kg-gallery-row:not(:first-of-type) {
+    margin: -0.45em 0 0 0;
+}
+.kg-gallery-image:not(:first-of-type) {
+    margin: 0 0 0 0.75em;
+}
+
+figcaption {
+    text-align: center;
+    opacity: 0.68;
+    font-size: 1.65rem;
+    line-height: 1em;
+}
+
+.kg-width-wide {
+    position: relative;
+    width: 60vw;
+    min-width: 100%;
+    margin: auto calc(50% - 50vw);
+    transform: translateX(calc(50vw - 50%));
+}
+
+.kg-width-full {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.kg-card {
+    margin-bottom: 1.75em;
+}
+
+.kg-card.kg-image-card {
+    margin-bottom: 2.5em;
+}
+
+.kg-card.kg-image-card figcaption {
+    margin-bottom: -15px;
+}
+
+.kg-card.kg-embed-card figcaption {
+    margin-top: -56px;
+    margin-bottom: -11px;
+}
+
+.fluid-width-video-wrapper {
+    margin-bottom: 66px;
+    margin-top: 51px;
+}
+
+.kg-card.kg-embed-card iframe {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fas.fa-star {
+    position: relative;
+    bottom: 2px;
+}
 
 .post-template .post-header,
 .page-template .post-header {
@@ -1816,7 +1902,8 @@ body:not(.page-template) .post-title {
         height: 100vh;
     }
 
-    .scroll-down {
+    .scroll-down,
+    .home-template .main-header:after {
         display: block;
     }
 
@@ -1942,6 +2029,14 @@ body:not(.page-template) .post-title {
     .read-next-story.no-cover + .read-next-story.no-cover {
         border-top: rgba(0,0,100,0.06) 1px solid;
         border-left: none;
+    }
+
+    section.post-meta {
+        font-size: 12px !important;
+    }
+
+    footer.post-meta {
+        font-size: 12px !important;
     }
 
 }

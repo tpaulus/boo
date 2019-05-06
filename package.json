@@ -1,10 +1,10 @@
 {
     "name": "boo",
     "description": "A beautiful, clean, and responsive theme for Ghost.",
-    "demo": "http://boo-demo.tenoku.com",
-    "version": "1.0.0",
+    "demo": "https://boo-demo.poeticthemes.com",
+    "version": "2.0.1",
     "engines": {
-        "ghost": "^1.0.0"
+        "ghost": "^2.2.0"
     },
     "license": "MIT",
     "screenshots": {
@@ -12,9 +12,9 @@
         "mobile": "assets/screenshot-mobile.png"
     },
     "author": {
-        "name": "Tenoku Software",
-        "email": "ivan@ivandigital.com",
-        "url": "http://tenoku.com"
+        "name": "Poetic Themes",
+        "email": "support@poeticthemes.com",
+        "url": "https://poeticthemes.com"
     },
     "gpm": {
         "type": "theme",
@@ -23,24 +23,30 @@
             "Clean",
             "Minimal",
             "Personal Blogs",
-            "Responsive"
+            "Responsive",
+            "Publication",
+            "Blog"
         ]
     },
     "keywords": [
+        "ghost-theme",
         "ghost",
         "theme",
         "boo",
         "minimalist",
         "clean",
-        "blog"
+        "blog",
+        "responsive"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tenoku/boo"
+        "url": "https://github.com/PoeticThemes/boo"
     },
-    "bugs": "https://github.com/tenoku/boo/issues",
-    "contributors": "https://github.com/tenoku/boo/graphs/contributors",
+    "bugs": "https://github.com/PoeticThemes/boo/issues",
+    "contributors": [
+        "https://github.com/PoeticThemes/boo/graphs/contributors"
+    ],
     "config": {
-        "posts_per_page": 4
+        "posts_per_page": 5
     }
 }

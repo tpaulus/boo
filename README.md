@@ -1,50 +1,59 @@
-[![Demo status](https://img.shields.io/badge/live%20demo-online-brightgreen.svg)](https://boo-demo.tenoku.com/)
-[![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)](https://github.com/tenoku/boo/releases)
-[![Ghost version shield](https://img.shields.io/badge/ghost%20version->=%200.11.3-00BCD4.svg)](https://github.com/tenoku/boo/releases)
-[![GitHub issues](https://img.shields.io/github/issues/tenoku/boo.svg)](https://github.com/tenoku/boo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/tenoku/boo.svg)](https://github.com/tenoku/boo/network)
-[![GitHub stars](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)](https://github.com/tenoku/boo/stargazers)
+[![Demo status](https://img.shields.io/badge/live%20demo-online-brightgreen.svg)](https://boo-demo.poeticthemes.com)
+[![Release shield](https://img.shields.io/github/release/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/releases)
+[![Ghost version shield](https://img.shields.io/badge/ghost%20version->=%202.2.0-00BCD4.svg)](https://github.com/PoeticThemes/boo/releases)
+[![GitHub issues](https://img.shields.io/github/issues/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/issues)
+[![GitHub forks](https://img.shields.io/github/forks/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/network)
+[![GitHub stars](https://img.shields.io/github/stars/PoeticThemes/boo.svg?style=social&label=Star)](https://github.com/PoeticThemes/boo/stargazers)
 ---
 
-[Installation](https://github.com/tenoku/boo#installation-) • [FAQ](https://github.com/tenoku/boo#faq-) • [Bug reports](https://github.com/tenoku/boo#bug-reports-) • [Improvement survey](https://form.jotform.co/70745196071862)
+[Installation](https://github.com/PoeticThemes/boo#installation-) • [FAQ](https://github.com/PoeticThemes/boo#faq-) • [Bug reports](https://github.com/PoeticThemes/boo#bug-reports-) • [Survey](https://form.jotform.co/70745196071862)
+<br><br>
+A beautiful, clean, and responsive theme for Ghost.
+<br><br>
+[![Boo logo](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/mWST66S8IsFENkC13lXk/d05AUxswkS.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
+<br><br><br><br>
 
----
+[![100% responsive](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/tbDYR5F6rrR7CFzwWH4B/HtfJPIi7Sf.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-> A beautiful, clean, and responsive theme for Ghost. [Live Demo](http://boo-demo.tenoku.com)
+[![minimalist home page](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/y55wAuIzcby3e023VNro/rZLghrhEnE.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme logo](http://i.imgur.com/Fr0xlnV.png)](https://boo-demo.tenoku.com)
+[![author page](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/Jo8nOllEkhXV0Bn14VXJ/0Jjwh0PViE.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a tablet](http://i.imgur.com/sTAXHdF.png)](https://boo-demo.tenoku.com)
+[![beautiful menu](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/rHY2qtXfDtRv5CpTJFT3/3WDoA9dv2f.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a tablet showing the menu](http://i.imgur.com/wRrVgrL.png)](https://boo-demo.tenoku.com)
+[![clean post list](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/cArtR0fE6NBpVk0fIrFY/39bZhkkAZG.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a tablet in portrait orientation](http://i.imgur.com/a6Dc6Cp.png)](https://boo-demo.tenoku.com)
+[![tags page](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/vNcHMr91AVcPOmqekqLI/FrWD3m17Xz.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a smartphone](http://i.imgur.com/g6SLM6X.png)](https://boo-demo.tenoku.com)
+[![post previews](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/X3hSLNvVqTWrZdhBl3mw/fV9fIQ9k4q.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a smartphone showing the menu](http://i.imgur.com/Cj7rvMx.png)](https://boo-demo.tenoku.com)
+[![custom 404 page](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/cG6svGcBWjyQGva6u2YC/834bbJGbIV.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme demo on a smartphone in portrait orientation](http://i.imgur.com/gGMFlYg.png)](https://boo-demo.tenoku.com)
+[![post images](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/miRDBPGJKzLVx7LYZi4d/uU1KTc4z7z.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
 
-[![Boo theme on smartphones and tablets](http://i.imgur.com/fHugkw5.png)](https://boo-demo.tenoku.com)
+[![elegant typography](https://d12swbtw719y4s.cloudfront.net/images/3U9tKy1f/ki8iLGB7QKQxuU5b2GjZ/o62uvl0Y4Y.jpeg?w=888)](https://github.com/PoeticThemes/boo/releases)
+
+[![github stars](https://poeticthemes.com/images/themes/ghost/boo/130-stars.jpg)](https://github.com/PoeticThemes/boo/releases)
+
+[![a theme by Poetic Themes](https://poeticthemes.com/images/themes/ghost/boo/a-theme-by-poetic-themes.jpg)](https://boo-demo.poeticthemes.com)
 
 ---
 
 # Installation 🚀
-1. Download the [latest version of Boo](https://github.com/tenoku/boo/releases) (Please consider [paying what you want for it ☕️](https://sellfy.com/p/Acjr))
+1. Download the [latest version of Boo](https://github.com/PoeticThemes/boo/releases)
 2. Log into your blog: **yourblog.ghost.io/ghost** [(Don't have Ghost?](https://ghost.org))
 3. Select **General** from the navigation menu on the left of your admin area.
 4. Scroll down to the **Themes** section and click on the green **Upload a Theme** button.
-5. Choose the theme **zip file** you downloaded in step one.
+5. Choose the theme **ZIP file** you downloaded in step one.
 
 
 # Bug reports 🐞
-Found a bug? No problem, [click here](https://github.com/tenoku/boo/issues/new) to report it.
+Found a bug? No problem, [click here](https://github.com/PoeticThemes/boo/issues/new) to report it.
 
 
 # FAQ 💬
 ### Have problems installing this theme?
-You can find more detailed instructions [here](https://help.ghost.org/hc/en-us/articles/223241628-Uploading-Themes).
+Send us an email to support@poeticthemes.com
 
 
 ### Something looks wrong compared to the demo?
@@ -52,13 +61,16 @@ Check for conflicting code in the code injection section of your admin area.
 
 
 # Show us your love ❤️
-If you like Boo, please consider supporting it by:
+If you like Boo, please consider supporting its development:
 
-- [Paying what you want for it ☕️](https://sellfy.com/p/Acjr)
-- Starring it 🌟 [![GitHub stars](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)](https://github.com/tenoku/boo/stargazers)
+- Star it 🌟 [![GitHub stars](https://img.shields.io/github/stars/PoeticThemes/boo.svg?style=social&label=Star)](https://github.com/PoeticThemes/boo/stargazers)
+- Fill out this this <a href="https://form.jotform.co/70745196071862">30-second survey</a> ✏️
 
 
-# Partners 👊
+# Partners and supporters 👊
+
+This theme is brought to you thanks to our awesome partners, sponsors, and supporters.
+
 
 [![BrowserStack logo](http://i.imgur.com/bZu7EA8.png)](https://www.browserstack.com/)
 
@@ -66,13 +78,27 @@ If you like Boo, please consider supporting it by:
 
 ---
 
+[![Panic Transmit](https://i.imgur.com/cy0bQUH.jpg)](https://panic.com/transmit/)
+
+**Transmit** is the gold standard of macOS file transfer apps. Upload, download, and manage files on tons of servers with an easy, familiar, and powerful UI. It’s quite good.
+
+---
+
+[![JetBrains](https://i.imgur.com/NLUGFsd.png)](https://www.jetbrains.com/?from=Boo_for_Ghost)
+
+**JetBrains** is a software vendor specializing in the creation of intelligent development tools. Whichever technologies you use, there's a JetBrains tool to match.
+
+---
+
 Take this quick <a href="https://form.jotform.co/70745196071862">30-second survey</a> to help us improve this theme for you.
 
 ---
 
-[![Demo status](https://img.shields.io/badge/live%20demo-online-brightgreen.svg)](https://boo-demo.tenoku.com/)
-[![Release shield](https://img.shields.io/github/release/tenoku/boo.svg)](https://github.com/tenoku/boo/releases)
-[![Ghost version shield](https://img.shields.io/badge/ghost%20version->=%200.11.3-00BCD4.svg)](https://github.com/tenoku/boo/releases)
-[![GitHub issues](https://img.shields.io/github/issues/tenoku/boo.svg)](https://github.com/tenoku/boo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/tenoku/boo.svg)](https://github.com/tenoku/boo/network)
-[![GitHub stars](https://img.shields.io/github/stars/tenoku/boo.svg?style=social&label=Star)](https://github.com/tenoku/boo/stargazers)
+[![Demo status](https://img.shields.io/badge/live%20demo-online-brightgreen.svg)](https://boo-demo.poeticthemes.com)
+[![Release shield](https://img.shields.io/github/release/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/releases)
+[![Ghost version shield](https://img.shields.io/badge/ghost%20version->=%202.2.0-00BCD4.svg)](https://github.com/PoeticThemes/boo/releases)
+[![GitHub issues](https://img.shields.io/github/issues/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/issues)
+[![GitHub forks](https://img.shields.io/github/forks/PoeticThemes/boo.svg)](https://github.com/PoeticThemes/boo/network)
+[![GitHub stars](https://img.shields.io/github/stars/PoeticThemes/boo.svg?style=social&label=Star)](https://github.com/PoeticThemes/boo/stargazers)
+
+[![Poetic Themes](https://i.imgur.com/VImilVs.jpg)](https://boo-demo.poeticthemes.com)
