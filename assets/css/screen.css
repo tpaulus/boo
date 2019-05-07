@@ -138,22 +138,22 @@ td, th{ padding: 0; }
     content: "\f601";
 }
 .icon-twitter:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Brands";
     content: "\f099";
     font-size: 1.4em;
 }
 .icon-linked-in:before{
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Brands";
     content: "\f0e1";
     font-size: 1.4em;
 }
 .icon-google-plus:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Brands";
     content: "\f0d5";
     font-size: 1.3em;
 }
 .icon-facebook:before {
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Brands";
     content: "\f09a";
     font-size: 1.3em;
 }
